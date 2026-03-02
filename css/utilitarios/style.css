@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Monsieur+La+Doulaise&family=Quicksand:wght@300..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor1: #E8D8C4;
+    --cor2: #C7B7A3;
+    --cor3: #6D2932;
+    --cor4: #561C24;
+    --cor5: #FFF1E6;
+    --cor6: #44174E;
+}
+
+.btn-card{
+    width: 100%;
+    height: 32px;
+    background-color: var(--cor6);
+    border: none;
+    color: var(--cor5);
+    border-radius: 8px;
+}
+
+.btn:hover{
+    background-color: #6A2C70
+}

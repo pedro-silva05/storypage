@@ -1,0 +1,59 @@
+#memorias{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--cor4);
+    padding: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.titulo{
+    font-size: 48px;
+    font-family: "Dancing Script", cursive;
+    color: #fff;
+}
+
+.text-memorias{
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    padding: 24px 0px;
+    font-family: "Sour Gummy", sans-serif;
+}
+
+.text-card{
+    font-size: 24px;
+    font-family: "Sour Gummy", sans-serif;
+}
+
+@media screen and (max-width: 768px){
+
+    #memorias{
+        width: 100%;
+        min-height: 100vh;
+        background-color: var(--cor4);
+        padding: 48px 24px;
+        overflow: hidden;
+    }
+
+    .titulo{
+        font-size: 24px;
+        font-family: "Dancing Script", cursive;
+        color: #fff;
+    }
+
+    .text-memorias{
+        color: #fff;
+        font-size: 16px;
+        text-align: justify;
+        margin: 0;
+        padding: 24px 24px 24px 0px;
+        font-family: "Sour Gummy", sans-serif;
+    }
+
+    .text-card{
+        font-size: 16px;
+        font-family: "Sour Gummy", sans-serif;
+    }
+
+}

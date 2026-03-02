@@ -1,0 +1,76 @@
+#dedicatoria{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--cor1);
+}
+
+.container-dedicatoria{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10% 0 10%;
+    align-items: center;
+}
+
+.container-text{
+    width: 50%;
+    height: 0 auto;
+    padding: 24px 24px 24px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.titulo-dedicatoria{
+    font-size: 48px;
+    font-family: "Dancing Script", cursive;
+    color: #000000;
+}
+
+.text-dedicatoria{
+    font-size: 24px;
+    font-family: "Sour Gummy", sans-serif;
+    color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+    #dedicatoria{
+        width: 100%;
+        height: auto;
+        background-color: var(--cor1);
+    }
+
+    .container-dedicatoria{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 24px 24px 48px 24px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container-text{
+        width: 100%;
+        height: 0 auto;
+        padding: 24px 0px;
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+    }
+
+    .titulo-dedicatoria{
+        font-size: 24px;
+        font-family: "Dancing Script", cursive;
+        color: #000000;
+    }
+
+    .text-dedicatoria{
+        font-size: 16px;
+        font-family: "Sour Gummy", sans-serif;
+        color: #000000;
+    }
+
+
+}
